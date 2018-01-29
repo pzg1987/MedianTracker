@@ -1,0 +1,11 @@
+#ifndef MEDIAN_TRACKER_INPUT_TYPE_H
+#define MEDIAN_TRACKER_INPUT_TYPE_H
+
+enum class MedianTrackerInputType {
+    NUMBER,
+    MEDIAN_REQUEST,
+    QUIT_REQUEST,
+    NONE
+};
+
+#endif // MEDIAN_TRACKER_INPUT_TYPE_H
